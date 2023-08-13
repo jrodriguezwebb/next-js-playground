@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tarjeta img {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="app">
+        <h1>este es mi titulo</h1>
+        asdsad
+        qwewqeqw
+        fghgfhfg
+    </div>
+
+    <div id="app2">
+        <p>asd</p>
+    </div>
+
+    <ol> <!--  Ordered List -->
+        <li>chikito</li>
+        <li>jesus</li>
+        <li>liliana</li>
+    </ol>
+
+    <ul> <!--  UnOrdered List -->
+        <li>chikito</li>
+        <li>jesus</li>
+        <li>liliana</li>
+    </ul>
+
+    <div id="tarjeta_de_usuario" class="tarjeta">
+        <img src="https://enzyme.biz/hs-fs/hubfs/buyer%20persona%20ejemplos%20%20carlos%20retail.jpg?width=566&name=buyer%20persona%20ejemplos%20%20carlos%20retail.jpg"
+            alt="foto del usuario" />
+        <p>Nombre: Pepito Perez</p>
+        <p>Edad: 36</p>
+    </div>
+
+    <div id="tarjeta_de_usuario2" class="tarjeta">
+        <img src="https://media.licdn.com/dms/image/D4E03AQGzaaxt6W5jUA/profile-displayphoto-shrink_200_200/0/1681919117737?e=1696464000&v=beta&t=lebCbgGiT92Hj9KGV_xRaTrJ7TDkxuAG-viCNaX8AYI"
+            alt="foto del usuario" />
+        <p>Nombre: Juancito Rodriguez</p>
+        <p>Edad: 35</p>
+    </div>
+
+    <div id="tarjeta_de_usuario3" class="tarjeta">
+        <img src="https://www.marketingfacts.nl/wp-content/uploads/2023/06/Strontvlieg-header.png"
+            alt="foto del usuario" />
+        <p>Nombre: Chiquito Sanchez</p>
+        <p>Edad: 34</p>
+    </div>
+
+    <script type="text/javascript">
+        const app = document.getElementById("app");
+
+        // Create a new H1 element
+        const header = document.createElement('h1');
+
+        // Create a new text node for the H1 element
+        const headerContent = document.createTextNode(
+            'Develop. Preview. Ship. 🚀',
+        );
+
+        // Append the text to the H1 element
+        header.appendChild(headerContent);
+
+        // Place the H1 element inside the div
+        app.appendChild(header);
+    </script>
+</body>
+
+</html>
